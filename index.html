@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suresh's Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Basic styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: rgb(68, 68, 68) ; 
+      text-emphasis-color: white;
+    
+    }
+
+    #hero {
+      height: 100vh;
+      /*background: url('https://via.placeholder.com/1920x1080') center/cover no-repeat; */
+      background-color: rgb(153, 153, 153)
+      
+    }
+
+    .card {
+      margin: 1rem 0;
+    }
+
+    footer {
+      margin-top: 20px;
+    }
+    
+  </style>
+</head>
+<body>
+  <!-- Navbar 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Suresh</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+         ---- <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li> ---
+         <li class="nav-item"><a class="nav-link" href="#projects">Certifications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Suresh's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Certifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Custom CSS for Navbar -->
+<style>
+  /* Navbar styles */
+  .navbar {
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar:hover {
+    background-color: #343a40; /* Darker shade on hover */
+  }
+
+  .navbar .nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+  }
+
+  .navbar .nav-link:hover {
+    color: #ffb400 !important; /* Golden color on hover */
+    text-decoration: none;
+  }
+
+  /* For sticky navbar */
+  .navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+  /* Smooth scrolling effect */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Toggle button (Hamburger) */
+  .navbar-toggler {
+    border: none;
+  }
+
+  /* Navbar Brand (Logo) */
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ffb400 !important;
+  }
+
+  /* Responsive design for mobile */
+  @media (max-width: 992px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+</style>
+
+  <!-- Hero Section 
+  <section id="hero" class="d-flex justify-content-center align-items-center text-center " >
+   
+    <div >
+      <h1>Hi, I'm Suresh</h1>
+      <p>Aspiring Web Developer & Final-Year AI Student</p>
+      <a href="#contact" class="btn btn-light mt-3">Contact Me</a>
+    </div>
+  </section> -->
+  <!-- header section customise-->
+
+
+ 
+
+  <!-- about section customize-->
+   <section id="about" class="container my-5 py-5">
+  <div class="row align-items-center">
+    <!-- Image Section -->
+    <div class="col-md-5 text-center mb-4 mb-md-0">
+      <img src="profile picture.jpg.jpg" class="img-fluid rounded-circle shadow-lg" alt="Suresh">
+    </div>
+
+    <!-- Text Section -->
+    <div class="col-md-7">
+      <h2 class="text-primary mb-3">About Me</h2>
+      <p class="lead">
+        Hi, I'm <strong>Suresh </strong> – a passionate <strong>Frontend Developer</strong> and <strong>Data Analytics Explorer</strong>. 
+        I am a final-year <strong>B.Tech student</strong> in Artificial Intelligence and Data Science at Karpagam Academy of Higher Education, Coimbatore. 
+        I specialize in crafting clean, modern, and responsive websites that prioritize seamless user experiences, blending functionality with aesthetics.
+      </p>
+      <p>
+        Having completed my <strong>Web Development Internship</strong> at Media Wave Technologies, I have gained hands-on experience with tools and technologies like 
+        <strong>HTML, CSS, JavaScript, React.js</strong>, and more. I thrive in both collaborative and self-directed environments and am always eager to explore new technologies and solve complex data challenges.
+      </p>
+      <p>
+        Based in <strong>Tiruchirappalli, Tamil Nadu, India</strong>, I am driven to apply my skills to innovative projects and continue growing in the fields of <strong>frontend development</strong> and <strong>data analytics</strong>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Section Styling */
+  #about {
+    background-color: #e6e1e1; /* Light background for contrast */
+   
+    border-radius: 10px;
+    padding: 3rem 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+
+  /* Heading Styling */
+  #about h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #333; /* Dark text for better readability */
+    margin-bottom: 1.5rem;
+    text-transform: uppercase; /* Makes the heading stand out */
+    letter-spacing: 1.5px;
+  }
+
+  /* Paragraph Styling */
+  #about p.lead {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #555; /* Subtle text color for elegance */
+    line-height: 1.8; /* Comfortable reading experience */
+    margin-bottom: 1.5rem;
+  }
+
+  #about p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+  }
+
+  /* Profile Image Styling */
+  #about img {
+    max-width: 85%; /* Adjusted for better balance */
+    border: 8px solid #fff; /* Stronger border for focus */
+    border-radius: 50%; /* Circular image */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Lifted effect */
+  }
+
+  /* Responsive Image Styling */
+  @media (max-width: 768px) {
+    #about img {
+      max-width: 60%; /* Smaller screens */
+    }
+  }
+
+  /* Customizing Margins and Alignments */
+  .row {
+    align-items: center; /* Aligns content vertically */
+  }
+
+  /* Media Query for Smaller Screens */
+  @media (max-width: 576px) {
+    #about h2 {
+      font-size: 2rem;
+    }
+
+    #about p.lead {
+      font-size: 1.1rem;
+    }
+  }
+
+  /* Animations */
+  #about img {
+  max-width: 350px; /* Sets the image size */
+  height: auto; /* Maintains the aspect ratio */
+  border: 8px solid #fff; /* White border around the image */
+  border-radius: 50%; /* Makes the image circular */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+#about img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+  #about h2 {
+    position: relative;
+  }
+
+  #about h2::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background: #ffc107; /* Highlight color */
+    bottom: -10px;
+    left: 0;
+    border-radius: 2px;
+  }
+</style>
+
+
+   <!--certification  Section 
+  <section id="projects" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Certifications</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Certifications 1</h5>
+              <p class="card-text">A short description of your project.</p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Certifications2</h5>
+              <p class="card-text">A short description of your project.</p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Certifications 3</h5>
+              <p class="card-text">A short description of your project.</p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> --->
+  <!-- Certification Section -->
+<!-- Certification Section -->
+<section id="projects" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center">Certifications</h2>
+    <div class="scrolling-wrapper">
+      <!-- Certification 1 -->
+      <div class="card">
+        <a href="sql_basic-certificate-Hackerrank.jpg" target="_blank">
+          <img src="sql_basic-certificate-Hackerrank.jpg" class="card-img-top" alt="Certification 1">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">SQL Basic Certification</h5>
+          <p class="card-text">Awarded by HackerRank for demonstrating foundational knowledge in SQL.</p>
+          <a href="sql_basic-certificate-Hackerrank.jpg" target="_blank" class="btn btn-primary">View Certificate</a>
+        </div>
+      </div>
+      
+      <!-- Certification 2 -->
+      <div class="card">
+        <a href="python_basic-certificate-Hackerrank.jpg" target="_blank">
+          <img src="python_basic-certificate-Hackerrank.jpg" class="card-img-top" alt="Certification 2">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">Python Basic Certification</h5>
+          <p class="card-text">Awarded by HackerRank for showcasing proficiency in the fundamentals of Python programming.</p>
+          <a href="python_basic-certificate-Hackerrank.jpg" target="_blank" class="btn btn-primary">View Certificate</a>
+        </div>
+      </div>
+      
+      <!-- Certification 3 -->
+      <div class="card">
+        <a href="Technical-Support-Fundamentals.jpg" target="_blank">
+          <img src="Technical-Support-Fundamentals.jpg" class="card-img-top" alt="Certification 3">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">Technical Support Fundamentals Certification</h5>
+          <p class="card-text">Earned through Google, this certification demonstrates knowledge of essential technical support concepts, troubleshooting and system administration basics.</p>
+          <a href="Technical-Support-Fundamentals.jpg" target="_blank" class="btn btn-primary">View Certificate</a>
+        </div>
+      </div>
+      
+      <!-- Certification 4 -->
+      <div class="card">
+        <a href="Suresh-NPTEL-_-IOT_-.jpg" target="_blank">
+          <img src="Suresh-NPTEL-_-IOT_-.jpg" class="card-img-top" alt="Certification 4">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">Internet of Things (IoT) Certification</h5>
+          <p class="card-text"> Achieved through NPTEL, this certification showcases proficiency in IoT fundamentals, including concepts, architecture, and practical applications.</p>
+          <a href="Suresh-NPTEL-_-IOT_-.jpg" target="_blank" class="btn btn-primary">View Certificate</a>
+        </div>
+      </div>
+      
+      <!-- Certification 5 -->
+      <div class="card">
+        <a href="Skolar-Internship-Completion-Certificate-_-Suresh-K.jpg" target="_blank">
+          <img src="Skolar-Internship-Completion-Certificate-_-Suresh-K.jpg" class="card-img-top" alt="Certification 5">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">Machine Learning with Data Science Internship Certification</h5>
+          <p class="card-text">Completed a 3-month online internship with Skolar, covering foundational Machine Learning concepts and practical applications in Data Science.</p>
+          <a href="Skolar-Internship-Completion-Certificate-_-Suresh-K.jpg" target="_blank" class="btn btn-primary">View Certificate</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="mysql - udemy.jpg_page-0001.jpg" target="_blank">
+          <img src="mysql - udemy.jpg_page-0001.jpg" class="card-img-top" alt="Certification 1">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">MySQL Certification – Udemy</h5>
+          <p class="card-text">Completed a course on MySQL, focusing on database management and SQL queries.</p>
+          <a href="mysql - udemy.jpg_page-0001.jpg" target="_blank" class=" btn btn-primary">View Certificate</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Custom CSS for Scrolling -->
+<style>
+  
+  .scrolling-wrapper {
+    display: flex;
+    overflow-x: auto;  /* Allow horizontal scrolling */
+    padding: 20px 0;
+    
+  }
+
+  .scrolling-wrapper .card {
+    min-width: 300px;
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(189, 187, 187) ; 
+  }
+
+  .scrolling-wrapper .card:hover {
+    transform: scale(1.05);
+    background-color: #e4dbdbe3;
+  }
+
+  /* Hide scrollbar but still allow scrolling */
+  .scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+    
+  }
+
+  .scrolling-wrapper {
+    -ms-overflow-style: none;  /* For Internet Explorer 10+ */
+    scrollbar-width: none;  /* For Firefox */
+    
+  }
+</style>
+
+  
+  <!--Projects Section 2-->
+<!--- <section id="languages-tools" class="py-5">
+        <div class="container">
+          <h2 class="text-center">Skills</h2>
+          <div class="row text-center">
+            <!- Languages Section --
+            <div class="col-md-2">
+              <i class="fab fa-c fa-3x text-success"></i>
+              <p>C</p>
+            </div>
+            <div class="col-md-2">
+              <i class="fab fa-python fa-3x text-dark"></i>
+              <p>Python</p>
+            </div>
+            <div class="col-md-2">
+              <i class="fab fa-js fa-3x text-warning"></i>
+              <p>JavaScript</p>
+            </div>
+            <div class="col-md-2">
+              <i class="fab fa-html5 fa-3x text-danger"></i>
+              <p>HTML</p>
+            </div>
+            <div class="col-md-2">
+              <i class="fab fa-css3-alt fa-3x text-primary"></i>
+              <p>CSS</p>
+            </div>
+            -- Tools Section --
+            <div class="col-md-2">
+              <i class="fab fa-bootstrap fa-3x text-info"></i>
+              <p>Bootstrap</p>
+            </div>
+            <div class="col-md-2">
+              <i class="fas fa-database fa-3x text-primary"></i>
+              <p>SQL</p>
+            </div>
+            <div class="col-md-2">
+              <i class="fab fa-mysql fa-3x text-danger"></i>
+              <p>MySQL</p>
+            </div>
+            <div class="col-md-2">
+              <i class="fab fa-microsoft fa-3x text-success"></i>
+              <p>PowerBI</p>
+            </div>
+            <div class="col-md-2">
+              <i class="fab fa-microsoft-excel fa-3x text-success"></i>
+              <p>Excel</p>
+            </div>
+            <div class="col-md-2">
+              <i class="fab fa-microsoft-word fa-3x text-primary"></i>
+              <p>Word</p>
+            </div>
+            <div class="col-md-2">
+              <i class="fab fa-microsoft-powerpoint fa-3x text-danger"></i>
+              <p>PowerPoint</p>
+            </div>
+            <div class="col-md-2">
+              <i class="fab fa-figma fa-3x text-pink"></i>
+              <p>Figma</p>
+            </div>
+            <div class="col-md-2">
+              <i class="fab fa-wordpress fa-3x text-dark"></i>
+              <p>WordPress</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+          
+      </div>
+    </div>
+  </section> -->
+  <section id="skills" class=" py-5">
+    <div class="container">
+      <h2 class="text-center">Skills</h2>
+      <div class="row text-center">
+        <!-- Languages Section -->
+        <div class="col-md-2">
+          <i class="fab fa-c fa-3x text-success skill-icon"></i>
+          <p>C</p>
+        </div>
+        <div class="col-md-2">
+          <i class="fab fa-python fa-3x text-dark skill-icon"></i>
+          <p>Python</p>
+        </div>
+        <div class="col-md-2">
+          <img src="https://img.icons8.com/?size=100&id=106036&format=png&color=000000" class="img-fluid skill-icon" alt="JavaScript">
+          <p>JavaScript</p>
+        </div>
+        <div class="col-md-2">
+          <i class="fab fa-html5 fa-3x text-danger skill-icon"></i>
+          <p>HTML</p>
+        </div>
+        <div class="col-md-2">
+          <i class="fab fa-css3-alt fa-3x text-primary skill-icon"></i>
+          <p>CSS</p>
+        </div>
+        
+        <!-- Tools Section -->
+        <div class="col-md-2">
+          <i class="fab fa-bootstrap fa-3x text-info skill-icon"></i>
+          <p>Bootstrap</p>
+        </div>
+        <div class="col-md-2">
+          <i class="fas fa-database fa-3x text-primary skill-icon"></i>
+          <p>SQL</p>
+        </div>
+        <div class="col-md-2">
+          <img src="https://img.icons8.com/?size=100&id=11572&format=png&color=000000" class="img-fluid skill-icon" alt="MySQL">
+          <p>MySQL</p>
+        </div>
+        <div class="col-md-2">
+          <img src="https://img.icons8.com/?size=100&id=70667&format=png&color=000000" class="img-fluid skill-icon" alt="PowerBI">
+          <p>PowerBI</p>
+        </div>
+        <div class="col-md-2">
+          <img src="https://img.icons8.com/?size=100&id=117561&format=png&color=000000" class="img-fluid skill-icon" alt="Excel">
+          <p>Excel</p>
+        </div>
+        <div class="col-md-2">
+          <i class="fab fa-figma fa-3x text-pink skill-icon"></i>
+          <p>Figma</p>
+        </div>
+        <div class="col-md-2">
+          <i class="fab fa-wordpress fa-3x text-dark skill-icon"></i>
+          <p>WordPress</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <style>
+  /* Custom CSS for skills icons */
+  .skill-icon {
+    max-width: 60px; /* Adjust the size of the icons/logos */
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .skill-icon:hover {
+    transform: scale(1.2); /* Increase size on hover */
+    opacity: 0.8; /* Slight opacity change */
+  }
+  
+  /* Make sure the image logos are responsive */
+  .skill-icon img {
+    max-width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .skill-icon img:hover {
+    transform: scale(1.2); /* Increase size on hover */
+    opacity: 0.8;
+  }
+  #skills{
+    background-color: #857f7fa8;
+  }
+  </style>
+  
+  
+  <!-- Contact Section 
+  <section id="contact" class="bg-dark text-white py-2">
+    <div class="container">
+      <h2 class="text-center">Contact Me</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-light">Send</button>
+      </form>
+    </div>
+  </section> -->
+  <!-- contact section -->
+  <section id="contact" class="bg-dark text-white py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form>
+        <div class="mb-4">
+          <label for="name" class="form-label custom-label">Name</label>
+          <input type="text" class="form-control form-control-lg custom-width" id="name" placeholder="Enter your name">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="form-label custom-label">Email</label>
+          <input type="email" class="form-control form-control-lg custom-width" id="email" placeholder="Enter your email">
+        </div>
+        <div class="mb-4">
+          <label for="message" class="form-label custom-label">Message</label>
+          <textarea class="form-control form-control-lg custom-width" id="message" rows="6" placeholder="Write your message"></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-warning btn-lg custom-width">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  
+  <style>
+    /* Custom CSS to control the width of input and textarea fields */
+    .custom-width {
+      width: 70%; /* Adjust this value to control the width */
+      margin: 0 auto; /* Centers the input box and button */
+    }
+  
+    .custom-label {
+      width: 70%; /* Match the width of the input fields */
+      margin: 0 auto 8px; /* Align the label with the input box and add spacing below it */
+      text-align: left; /* Align the label text to the starting point of the input box */
+      display: block; /* Ensure the label is on its own line */
+      color: #f8f9fa; /* Keep text readable on a dark background */
+    }
+  
+    @media (max-width: 768px) {
+      /* Make inputs, labels, and the button full width on smaller screens */
+      .custom-width, .custom-label {
+        width: 100%;
+      }
+    }
+  </style>
+  
+
+  <!-- Footer 
+  <footer class="text-center py-3 bg-dark text-white">
+    <p>© 2025 Suresh. All Rights Reserved.</p>
+  </footer> -->
+  <footer class="text-center py-3 bg-dark text-white">
+    <div class="container">
+      <p>© 2025 <a href="https://www.sureshkamalakannan.com" class="text-warning text-decoration-none" target="_blank">www.sureshkamalakannan.com</a> | All Rights Reserved.</p>
+      <div class="social-icons mt-2">
+        <a href="https://www.linkedin.com/in/suresh1709/" target="_blank" class="text-white mx-2">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="https://github.com/sureshkamal1709" target="_blank" class="text-white mx-2">
+          <i class="fab fa-github fa-lg"></i>
+        </a>
+       <!-- <a href="https://twitter.com/yourprofile" target="_blank" class="text-white mx-2">
+          <i class="fab fa-twitter fa-lg"></i>
+        </a> -->
+        <!-- Add Instagram Link -->
+        <a href="https://www.instagram.com/mr.__.charm/" target="_blank" class="text-white mx-2">
+          <i class="fab fa-instagram fa-lg"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+ 
+  <style>
+    footer a {
+      transition: color 0.3s ease;
+    }
+    footer a:hover {
+      color: #ffc107; /* Highlight the link color on hover */
+    }
+  </style>
+  
+  <style>
+    .social-icons a {
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: #ffc107; /* Add a hover effect with a vibrant color */
+    }
+  </style>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a.nav-link').forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
